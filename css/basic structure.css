@@ -1,0 +1,70 @@
+/* BASIC STRUCTURE */
+* {
+    margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100vh;
+	font-size: 1rem;
+	line-height: 1.5;
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size: 2.5rem; 
+}
+
+h2 {
+	font-size: 2.25rem; 
+}
+
+h3 {
+	font-size: 2rem; 
+}
+
+h4{
+    font-size: 1.75rem;
+}
+
+h5{
+    font-size: 1.5rem;
+}
+
+h6{
+    font-size: 1.25rem;
+}
+
+p, span{
+	font-weight: 500;
+}
+
+a {
+	text-decoration: none;
+	color: #007AFF;
+}
+
+button {
+	background-color: #007AFF;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+	transition: background-color 0.35;
+}
+
+button:hover {
+	background-color: #0056b3;
+}
+
+@media (max-width: 800px) {
+	button {
+	padding: 8px 16px;
+	}
+}
+
+.highlight {
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}

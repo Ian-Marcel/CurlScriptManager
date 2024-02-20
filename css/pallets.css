@@ -1,0 +1,302 @@
+/* Mint theme */
+.Mint {
+	color: rgba(0, 128, 128, 1);
+	background-color: rgba(238, 253, 219, 1);
+}
+.Mint-alt {
+	color: rgba(238, 253, 219, 1);
+	background-color: rgba(0, 128, 128, 1);
+}
+
+
+/* Ivory theme */
+.Ivory {
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(105, 31, 32, 1);
+}
+.Ivory-alt {
+	color: rgba(105, 31, 32, 1);
+	background-color: rgba(255, 255, 255, 1);
+}
+
+/* Ember theme */
+.Ember {
+	color: rgba(0, 0, 0, 1);
+	background-color: rgba(243, 105, 14, 1);
+}
+.Ember-alt {
+	color: rgba(243, 105, 14, 1);
+	background-color: rgba(0, 0, 0, 1);
+}
+
+/* Cinnamon theme */
+.Cinnamon {
+	color: rgba(255, 69, 0, 1);
+	background-color: rgba(23, 8, 10, 1);
+}
+.Cinnamon-alt {
+	color: rgba(39, 22, 1, 1);
+	background-color: rgba(255, 69, 0, 1);
+}
+
+/* Venom theme */
+.Venom {
+	color: rgba(0, 0, 0, 1);
+	background-color: rgba(117, 215, 15, 1);
+}
+.Venom-alt {
+	color: rgba(117, 215, 15, 1);
+	background-color: rgba(0, 0, 0, 1);
+}
+
+/* Blood theme */
+.Blood {
+    color: rgba(255, 0, 0, 1);
+    background-color: rgba(41, 1, 3, 1);
+}
+.Blood-alt {
+    color: rgba(41, 1, 3, 1);
+    background-color: rgba(255, 0, 0, 1);
+}
+
+/* Forest theme */
+.Forest {
+    color: rgba(255, 165, 0, 1);
+    background-color: rgba(54, 74, 24, 1);
+}
+.Forest-alt {
+    color: rgba(54, 74, 24, 1);
+    background-color: rgba(255, 165, 0, 1);
+}
+
+/* Harvest theme */
+.Harvest {
+    color: rgba(255, 215, 0, 1);
+    background-color: rgba(70, 53, 6, 1);
+}
+.Harvest-alt {
+    color: rgba(70, 53, 6, 1);
+    background-color: rgba(255, 215, 0, 1);
+}
+
+/* Sky theme */
+.Sky {
+    color: rgba(135, 206, 235, 1);
+    background-color: rgba(49, 0, 196, 1);
+}
+.Sky-alt {
+    color: rgba(49, 0, 196, 1);
+    background-color: rgba(135, 206, 235, 1);
+}
+
+/* Toxic theme */
+.Toxic {
+    color: rgba(75, 0, 130, 1);
+    background-color: rgba(53, 243, 22, 1);
+}
+.Toxic-alt {
+    color: rgba(53, 243, 22, 1);
+    background-color: rgba(75, 0, 130, 1);
+}
+
+/* Fuchsia theme */
+.Fuchsia {
+    color: rgba(255, 105, 180, 1);
+    background-color: rgba(88, 8, 85, 1);
+}
+.Fuchsia-alt {
+    color: rgba(88, 8, 85, 1);
+    background-color: rgba(255, 105, 180, 1);
+}
+
+/* Jungle theme */
+.Jungle {
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(130, 159, 67, 1);
+}
+.Jungle-alt {
+    color: rgba(130, 159, 67, 1);
+    background-color: rgba(0, 0, 0, 1);
+}
+
+/* Emerald theme */
+.Emerald {
+    color: rgba(0, 255, 127, 1);
+    background-color: rgba(55, 106, 64, 1);
+}
+.Emerald-alt {
+    color: rgba(55, 106, 64, 1);
+    background-color: rgba(0, 255, 127, 1);
+}
+
+/* Navy theme */
+.Navy {
+    color: rgba(255, 255, 0, 1);
+    background-color: rgba(28, 36, 69, 1);
+}
+.Navy-alt {
+    color: rgba(28, 36, 69, 1);
+    background-color: rgba(255, 255, 0, 1);
+}
+
+/* RedOnion theme */
+.RedOnion {
+    color: rgba(137, 43, 226, 1);
+    background-color: rgba(236, 243, 255, 1);
+}
+.RedOnion-alt {
+    color: rgba(236, 243, 255, 1);
+    background-color: rgba(137, 43, 226, 1);
+}
+
+/* 50% OPACITY VERSION */
+
+	/* Mint theme with 50% opacity */
+.Mint50 {
+    color: rgba(0, 128, 128, 0.5);
+    background-color: rgba(238, 253, 219, 0.5);
+}
+.Mint50-alt {
+    color: rgba(238, 253, 219, 0.5);
+    background-color: rgba(0, 128, 128, 0.5);
+}
+
+/* Ivory theme with 50% opacity */
+.Ivory50 {
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(105, 31, 32, 0.5);
+}
+.Ivory50-alt {
+    color: rgba(105, 31, 32, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Ember theme with 50% opacity */
+.Ember50 {
+    color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(243, 105, 14, 0.5);
+}
+.Ember50-alt {
+    color: rgba(243, 105, 14, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Cinnamon theme with 50% opacity */
+.Cinnamon50 {
+    color: rgba(255, 69, 0, 0.5);
+    background-color: rgba(23, 8, 10, 0.5);
+}
+.Cinnamon50-alt {
+    color: rgba(39, 22, 1, 0.5);
+    background-color: rgba(255, 69, 0, 0.5);
+}
+
+/* Venom theme with 50% opacity */
+.Venom50 {
+    color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(117, 215, 15, 0.5);
+}
+.Venom50-alt {
+    color: rgba(117, 215, 15, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Blood theme with 50% opacity */
+.Blood50 {
+    color: rgba(255, 0, 0, 0.5);
+    background-color: rgba(41, 1, 3, 0.5);
+}
+.Blood50-alt {
+    color: rgba(41, 1, 3, 0.5);
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+/* Forest theme with 50% opacity */
+.Forest50 {
+    color: rgba(255, 165, 0, 0.5);
+    background-color: rgba(54, 74, 24, 0.5);
+}
+.Forest50-alt {
+    color: rgba(54, 74, 24, 0.5);
+    background-color: rgba(255, 165, 0, 0.5);
+}
+
+/* Harvest theme with 50% opacity */
+.Harvest50 {
+    color: rgba(255, 215, 0, 0.5);
+    background-color: rgba(70, 53, 6, 0.5);
+}
+.Harvest50-alt {
+    color: rgba(70, 53, 6, 0.5);
+    background-color: rgba(255, 215, 0, 0.5);
+}
+
+/* Sky theme with 50% opacity */
+.Sky50 {
+    color: rgba(135, 206, 235, 0.5);
+    background-color: rgba(49, 0, 196, 0.5);
+}
+.Sky50-alt {
+    color: rgba(49, 0, 196, 0.5);
+    background-color: rgba(135, 206, 235, 0.5);
+}
+
+/* Toxic theme with 50% opacity */
+.Toxic50 {
+    color: rgba(75, 0, 130, 0.5);
+    background-color: rgba(53, 243, 22, 0.5);
+}
+.Toxic50-alt {
+    color: rgba(53, 243, 22, 0.5);
+    background-color: rgba(75, 0, 130, 0.5);
+}
+
+/* Fuchsia theme with 50% opacity */
+.Fuchsia50 {
+    color: rgba(255, 105, 180, 0.5);
+    background-color: rgba(88, 8, 85, 0.5);
+}
+.Fuchsia50-alt {
+    color: rgba(88, 8, 85, 0.5);
+    background-color: rgba(255, 105, 180, 0.5);
+}
+
+/* Jungle theme with 50% opacity */
+.Jungle50 {
+    color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(130, 159, 67, 0.5);
+}
+.Jungle50-alt {
+    color: rgba(130, 159, 67, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Emerald theme with 50% opacity */
+.Emerald50 {
+    color: rgba(0, 255, 127, 0.5);
+    background-color: rgba(55, 106, 64, 0.5);
+}
+.Emerald50-alt {
+    color: rgba(55, 106, 64, 0.5);
+    background-color: rgba(0, 255, 127, 0.5);
+}
+
+/* Navy theme with 50% opacity */
+.Navy50 {
+    color: rgba(255, 255, 0, 0.5);
+    background-color: rgba(28, 36, 69, 0.5);
+}
+.Navy50-alt {
+    color: rgba(28, 36, 69, 0.5);
+    background-color: rgba(255, 255, 0, 0.5);
+}
+
+/* RedOnion theme with 50% opacity */
+.RedOnion50 {
+    color: rgba(137, 43, 226, 0.5);
+    background-color: rgba(236, 243, 255, 0.5);
+}
+.RedOnion50-alt {
+    color: rgba(236, 243, 255, 0.5);
+    background-color: rgba(137, 43, 226, 0.5);
+}

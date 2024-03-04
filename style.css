@@ -39,13 +39,14 @@ main {
     max-width: 30px;
     border: 2px solid;
     border-radius: 999px;
-    transform: scale(1);
     transition: transform 0.25s, background-color 0.25s;
 }
 
 .closet_btn:hover {
     transform: scale(1.1);
     background-color: rgba(255, 215, 0, 0.1);
+}.closet_btn:active{
+    transform: scale(0.95);
 }
 .apps {
     margin: auto 10px;
@@ -54,19 +55,15 @@ main {
     place-items: center;
     gap: 10px;
 }
-.app_background {
+.app_background, .active_app_background {
     padding: 5px;
     background-color: transparent;
-	transition: background-color 0.4s;
+	transition: background-color 0.4s, transform 0.25s;
     border-radius: 999px;
     z-index: 30;
 }
 .active_app_background {
-    padding: 5px;
-    background-color: none;
-	transition: background-color 0.4s;
     border-radius: 25px;
-    z-index: 30;
 }
 #app {
     height: 4.5rem;
@@ -76,7 +73,11 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: height 0.5s, width 0.5s;
+    transition: height 0.5s, width 0.5s, transform 0.25s;
+}#app:active {
+    transform: scale(0.95);
+}.app_background:active, .active_app_background:active{
+    transform: scale(0.9);
 }
 .app_background:hover, .active_app_background:hover {
     background-color: rgba(255, 215, 0, 0.4);
@@ -85,16 +86,17 @@ main {
     border-radius: 20px !important;
 }
 #active_app {
+    margin-top: 5px !important;
     border: 2px dashed;
-    margin: auto;
     min-height: 60vh;
     max-height: 70vh;
 }
-hr{
+.hr{
     margin: 5px auto;
     color: inherit;
     max-width: 25%;
     border-radius: 10px;
+    border-top: 2px solid;
 }
 @media (max-width: 385px) {
     .closet_btn {

@@ -1,6 +1,108 @@
 /* CSS */
 /* IMPORTS */
-@import url('css/basic structure.css');
-@import url('css/pallets.css');
+@import url('design/css/basic structure.css');
+@import url('design/css/pallets.css');
+@import url('design/css/fonts.css');
 
 /* YOUR CSS */
+body, html {
+    display: grid;
+    place-items: center;
+    background-color: #000;
+}
+main {
+    width: 100vw;
+    min-height: 100vh;
+    display: block;
+    padding: 5px;
+}
+.closet, #active_app {
+    margin: auto;
+    border-radius: 10px;
+    max-width: 90vw;
+}
+.closet {
+    min-height: 30vh;
+    max-height: 40vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.closet_btn {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    max-width: 30px;
+    border: 2px solid;
+    border-radius: 999px;
+    transform: scale(1);
+    transition: transform 0.25s, background-color 0.25s;
+}
+
+.closet_btn:hover {
+    transform: scale(1.1);
+    background-color: rgba(255, 215, 0, 0.1);
+}
+.apps {
+    margin: auto 10px;
+    display: grid;
+	grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 10px;
+}
+.app_background {
+    padding: 5px;
+    background-color: transparent;
+	transition: background-color 0.4s;
+    border-radius: 999px;
+    z-index: 30;
+}
+.active_app_background {
+    padding: 5px;
+    background-color: none;
+	transition: background-color 0.4s;
+    border-radius: 25px;
+    z-index: 30;
+}
+#app {
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 999px;
+    z-index: 31;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: height 0.5s, width 0.5s;
+}
+.app_background:hover, .active_app_background:hover {
+    background-color: rgba(255, 215, 0, 0.4);
+}
+.active{
+    border-radius: 20px !important;
+}
+#active_app {
+    border: 2px dashed;
+    margin: auto;
+    min-height: 60vh;
+    max-height: 70vh;
+}
+hr{
+    margin: 5px auto;
+    color: inherit;
+    max-width: 25%;
+    border-radius: 10px;
+}
+@media (max-width: 385px) {
+    .closet_btn {
+    transition: transform 0.15s, background-color 0.15s;
+    }
+    #app {
+        height: 60px;
+        width: 60px;
+    }
+}
+

@@ -1,0 +1,18 @@
+/* CSS */
+
+/* SANS-SERIF */
+@import url(../fonts/sans-serif/ClashDisplay_Complete/Fonts/WEB/css/clash-display.css);
+@import url(../fonts/sans-serif/SpaceGrotesk_Complete/Fonts/WEB/css/space-grotesk.css);
+@import url(../fonts/sans-serif/Pally_Complete/Fonts/WEB/css/pally.css);
+@import url(../fonts/sans-serif/Montserrat/Montserrat.css);
+@import url(../fonts/sans-serif/Satoshi/css/satoshi.css);
+
+/* SERIF */
+@import url(../fonts/serif/Gambarino_Complete/Fonts/WEB/css/gambarino.css);
+@import url(../fonts/serif/Stardom_Complete/Fonts/WEB/css/stardom.css);
+@import url(../fonts/serif/Karma_Complete/Fonts/WEB/css/karma.css);
+@import url(../fonts/serif/Lora_Complete/Fonts/WEB/css/lora.css);
+
+/* MONOSPACE */
+@import url(../fonts/monospace/JetBrainsMono_Complete/Fonts/WEB/css/jet-brains-mono.css);
+@import url(../fonts/monospace/AzeretMono_Complete/Fonts/WEB/css/azeret-mono.css);

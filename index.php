@@ -4,18 +4,28 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="http://localhost/.elephpant.png" image/x-icon">
-        <link rel="stylesheet" href="style.css">
-        <title>php</title>
+        <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
+        <title>ToolsPot</title>
     </head>
-    <body class="Blood">
-        <h1>Hello World!</h1>
-        <p>Exemplo de Página PHP com HTML</p>
-
-        <?php
-        $mensagem = "variable";
-        echo "<p>$mensagem</p>"
-        ?>
-
+    <body class="Harvest">
+        <main >
+            <section class="closet">
+                <button id="closet-backward" class="closet_btn Harvest"><b><</b></button>
+                <section class="apps">
+                    <div class="app_background"><button id="app" class="Harvest-alt"></button></div>
+                    <div class="app_background"><button id="app" class="Harvest-alt"></button></div>
+                    <div class="active_app_background"><button id="app" class="Harvest-alt active">active app</button></div>
+                    <div class="app_background"><button id="app" class="Harvest-alt"></button></div>
+                    <div class="app_background"><button id="app" class="Harvest-alt"></button></div>
+                    <div class="app_background"><button id="app" class="Harvest-alt"></button></div>
+                </section>
+                <button id="closet-forward" class="closet_btn Harvest"><b>></b></button>
+            </section>
+            <hr><hr>
+            <section id="active_app">
+                <h1>APP</h1>
+            </section>
+        </main>
         <!-- scripts -->
         <script src="script.js"></script>
 

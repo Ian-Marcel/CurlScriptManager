@@ -43,7 +43,7 @@ main {
 }
 
 .closet_btn:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     background-color: rgba(255, 215, 0, 0.1);
 }.closet_btn:active{
     transform: scale(0.95);
@@ -75,7 +75,7 @@ main {
     justify-content: center;
     transition: height 0.5s, width 0.5s, transform 0.25s;
 }#app:active {
-    transform: scale(0.95);
+    transform: scale(1.20);
 }.app_background:active, .active_app_background:active{
     transform: scale(0.9);
 }

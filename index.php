@@ -22,7 +22,6 @@
                 </section>
                 <button id="closet-forward" class="closet_btn Harvest"><b>></b></button>
             </section>
-            <!-- <div class="hr Harvest"></div> -->
             <section id="active_app">
                 <h1>APP</h1>
             </section>

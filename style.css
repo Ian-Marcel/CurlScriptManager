@@ -74,9 +74,7 @@ main {
     align-items: center;
     justify-content: center;
     transition: height 0.5s, width 0.5s, transform 0.25s;
-}#app:active {
-    transform: scale(1.20);
-}.app_background:active, .active_app_background:active{
+} #app:active, .app_background:active, .active_app_background:active{
     transform: scale(0.9);
 }
 .app_background:hover, .active_app_background:hover {

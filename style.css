@@ -94,7 +94,7 @@ main {
     color: inherit;
     max-width: 25%;
     border-radius: 10px;
-    border-top: 2px solid;
+    border: 1px solid;
 }
 @media (max-width: 385px) {
     .closet_btn {

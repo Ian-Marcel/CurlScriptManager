@@ -44,18 +44,3 @@ a {
 	text-decoration: none;
 	color: #007AFF;
 }
-
-button {
-	background-color: #007AFF;
-	color: #fff;
-	border: none;
-	border-radius: 5px;
-	padding: 10px 20px;
-	cursor: pointer;
-	transition: background-color 0.35;
-}
-@media (max-width: 800px) {
-	button {
-	padding: 8px 16px;
-	}
-}

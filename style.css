@@ -1,8 +1,8 @@
 /* CSS */
 /* IMPORTS */
-@import url('design/css/basic structure.css');
-@import url('design/css/pallets.css');
-@import url('design/css/fonts.css');
+@import url('assets/design/css/basic structure.css');
+@import url('assets/design/css/pallets.css');
+@import url('assets/design/css/fonts.css');
 
 /* YOUR CSS */
 body, html {

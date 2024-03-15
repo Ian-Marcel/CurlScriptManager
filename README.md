@@ -4,9 +4,11 @@
 
 ToolPot busca aumentar a produtividade e comodidade do usuário através de um espaço dentro da sidebar do navegador que centraliza varias ferramentas úteis disponibilizadas e apresentadas como Apps.
 
-## Apps
+<details>
+<summary><h2>Apps</h2></summary>
 
 ### Legenda
+
 ⚪️ Incerto | 🔵️ Fácil de implementar | 🟡️ Médio de implementar | 🔴️ Difícil de implementar
 
 <details>
@@ -77,4 +79,5 @@ Esta com muitas abas abertas mas não quer fechar-las ainda? TabPot será seu en
 
 Front end integrado do seu streaming predileto.
 
+</details>
 </details>

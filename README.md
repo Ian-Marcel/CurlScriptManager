@@ -1,9 +1,3 @@
-<style>
-.easy {
-color: #add8e6;
-}
-</style>
-
 # 🔩️ ToolPot
 
 ## 🎯️ Nosso Objetivo
@@ -13,73 +7,73 @@ ToolPot busca aumentar a produtividade e comodidade do usuário através de um e
 ## Apps
 
 ### Legenda
-Incerto | Fácil de implementar | Médio de implementar | Difícil de implementar
+⚪️ Incerto | 🔵️ Fácil de implementar | 🟡️ Médio de implementar | 🔴️ Difícil de implementar
 
 <details>
-<summary class="easy">Conversor</summary>
+<summary>🔵️ Conversor</summary>
 
 Conversor simples de unidades, conversões de comprimento, massa, volume e tempo.
 
 </details>
 
 <details>
-<summary class="easy">Blocos de notas</summary>
+<summary>🔵️ Blocos de notas</summary>
 
 Bloco para anotações rápidas, com formatação markdown **<u> básica[Títulos, Listas(numeradas e não numeradas), Negrito, Itálico, Links, Imagens e Citações] </u>**.
 
 </details>
 
 <details>
-<summary class="easy">Tradutor</summary>
+<summary>🔵️ Tradutor</summary>
 
 Tradutor de línguas simples, provavelmente usará uma *API do google translate*.
 
 </details>
 
 <details>
-<summary class="easy">Relógio</summary>
+<summary>🔵️ Relógio</summary>
 
 	Um app que reúne cronômetro, alarme e temporizador.
 
 </details>
 
 <details>
-<summary class="easy">Dicionário</summary>
+<summary>🟡️ Dicionário</summary>
 
 Dicionário português completo, provê definição, sinônimos e antônimos.
 
 </details>
 
 <details>
-<summary >DataPot</summary>
+<summary>🟡️ DataPot</summary>
 
 Salve arquivos na nuvem com segurança e praticidade.
 
 </details>
 
 <details>
-<summary>Lista de visualização</summary>
+<summary>🟡️ Lista de visualização</summary>
 
 Praticamente a playlist “Assistir mais tarde” dentro da sua sidebar.
 
 </details>
 
 <details>
-<summary>Renderizador de paginas</summary>
+<summary>🔴️ Renderizador de paginas</summary>
 
 Basicamente voc sera capaz de abrir uma pagina web na sidebar.
 
 </details>
 
 <details>
-<summary>TabsPot</summary>
+<summary>🔴️ TabsPot</summary>
 
 Esta com muitas abas abertas mas não quer fechar-las ainda? TabPot será seu engavetador de abas.
 
 </details>
 
 <details>
-<summary>Cliente de áudio streaming</summary>
+<summary>🔴️ Cliente de áudio streaming</summary>
 
 Front end integrado do seu streaming predileto.
 

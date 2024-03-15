@@ -27,12 +27,19 @@ Tradutor de línguas simples, provavelmente usará uma *API do google translate*
 <details>
 <summary>🟦️ <ins>Relógio</ins> </summary>
 
-	Um app que reúne cronômetro, alarme e temporizador.
+Um app que reúne cronômetro, alarme e temporizador.
 
 </details>
 
 <details>
-<summary>🟦️ <ins>Blocos de notas</ins> </summary>
+<summary>🟦️ <ins>DataPot</ins> </summary>
+
+Salve arquivos na nuvem com segurança e praticidade.
+
+</details>
+
+<details>
+<summary>🟨️ <ins>Blocos de notas</ins> </summary>
 
 Bloco para anotações rápidas, com formatação markdown **<u> básica[Títulos, Listas(numeradas e não numeradas), Negrito, Itálico, Links, Imagens e Citações] </u>**.
 
@@ -42,13 +49,6 @@ Bloco para anotações rápidas, com formatação markdown **<u> básica[Título
 <summary>🟨️ <ins>Dicionário</ins> </summary>
 
 Dicionário português completo, provê definição, sinônimos e antônimos.
-
-</details>
-
-<details>
-<summary>🟨️ <ins>DataPot</ins> </summary>
-
-Salve arquivos na nuvem com segurança e praticidade.
 
 </details>
 
@@ -75,3 +75,5 @@ Esta com muitas abas abertas mas não quer fechar-las ainda? TabPot será seu en
 
 <details>
 <summary>🟥️ <ins>Cliente de áudio streaming</ins> </summary>
+Front end integrado do seu streaming predileto.
+</details>

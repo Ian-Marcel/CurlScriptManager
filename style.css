@@ -5,16 +5,23 @@
 @import url('assets/design/css/fonts.css');
 
 /* YOUR CSS */
+* {
+    margin: 0%;
+}
 body, html {
     display: grid;
     place-items: center;
     background-color: #000;
+    margin: 0%;
+    overflow-y: hidden;
 }
 main {
     width: 100vw;
     min-height: 100vh;
-    display: block;
-    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 .closet, #active_app {
     margin: auto;
@@ -84,10 +91,13 @@ main {
     border-radius: 20px !important;
 }
 #active_app {
-    margin-top: 5px !important;
-    border: 2px dashed;
-    min-height: 60vh;
-    max-height: 70vh;
+    margin: auto;
+    border: none;
+    border-top: 5px solid;
+    width: 100%;
+    max-width: 800px;
+    height: 70vh;
+    scroll-behavior: smooth;
 }
 .hr{
     margin: 5px auto;

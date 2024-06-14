@@ -21,9 +21,8 @@
                 </section>
                 <button id="closet-forward" class="closet_btn Harvest"><b>></b></button>
             </section>
-            <section id="active_app">
-                <h1>APP</h1>
-            </section>
+            <iframe src="http://www.localhost/assets/apps/password_generator/" id="active_app">
+            </iframe>
         </main>
         <!-- scripts -->
         <script src="script.js"></script>

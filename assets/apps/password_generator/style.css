@@ -5,12 +5,12 @@
 @import url('../../design/css/fonts.css');
 
 /* YOUR CSS */
-body {
-        font-family: Arial, sans-serif;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
+    * {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    ::-webkit-scrollbar {
+        display: none;
     }
     input {
         border-radius: 5px;
@@ -29,7 +29,7 @@ body {
     }
     .container {
         text-align: center;
-        margin-top: 50px;
+        margin-top: 25px;
         height: 100%;
     }
     #password {

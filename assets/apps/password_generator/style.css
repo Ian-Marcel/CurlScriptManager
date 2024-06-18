@@ -5,13 +5,22 @@
 @import url('../../design/css/fonts.css');
 
 /* YOUR CSS */
-    * {
-        -ms-overflow-style: none;
-        scrollbar-width: none;
+*{
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    scroll-behavior: smooth;
+}
+body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
     }
     ::-webkit-scrollbar {
         display: none;
     }
+    
     input {
         border-radius: 5px;
         border: 2px solid;
@@ -23,13 +32,14 @@
     }
     input[type="submit"] {
         border: inherit;
+        border-radius: 100px;
         cursor: pointer;
         width: 150px;
         font-size: inherit;
     }
     .container {
         text-align: center;
-        margin-top: 25px;
+        margin-top: 50px;
         height: 100%;
     }
     #password {

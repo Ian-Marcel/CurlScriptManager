@@ -63,7 +63,7 @@ main {
     gap: 10px;
 }
 
-#app {
+.app {
     height: 4.5rem;
     width: 4.5rem;
     border-radius: 999px;
@@ -75,14 +75,14 @@ main {
     justify-content: center;
     transition: height 0.5s, width 0.5s, transform 0.25s, border-radius 0.25s;
 }
-#app img {
+.app img {
     height: 2.5rem;
 }
-#app:active {
+.app:active {
     transform: scale(0.9);
     border-radius: 20px;
 }
-#app:focus {
+.app:focus {
     border-radius: 20px;
 }
 .app_display {
@@ -104,7 +104,7 @@ main {
     .closet_btn {
     transition: transform 0.15s, background-color 0.15s;
     }
-    #app {
+    .app {
         height: 60px;
         width: 60px;
     }

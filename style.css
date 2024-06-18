@@ -97,7 +97,6 @@ main {
     width: 100%;
     max-width: 800px;
     height: 70vh;
-    scroll-behavior: smooth;
 }
 .hr{
     margin: 5px auto;

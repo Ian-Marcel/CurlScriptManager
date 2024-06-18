@@ -5,6 +5,11 @@
 @import url('../../design/css/fonts.css');
 
 /* YOUR CSS */
+*{
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    scroll-behavior: smooth;
+}
 body {
         font-family: Arial, sans-serif;
         display: flex;
@@ -12,6 +17,10 @@ body {
         align-items: center;
         height: 100vh;
     }
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    
     input {
         border-radius: 5px;
         border: 2px solid;
@@ -23,6 +32,7 @@ body {
     }
     input[type="submit"] {
         border: inherit;
+        border-radius: 100px;
         cursor: pointer;
         width: 150px;
         font-size: inherit;

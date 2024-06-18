@@ -23,7 +23,7 @@ main {
     flex-wrap: nowrap;
     justify-content: center;
 }
-.closet, #active_app {
+.closet, .app_display {
     margin: auto;
     border-radius: 10px;
     max-width: 90vw;
@@ -62,35 +62,30 @@ main {
     place-items: center;
     gap: 10px;
 }
-.app_background, .active_app_background {
-    padding: 5px;
-    background-color: transparent;
-	transition: background-color 0.4s, transform 0.25s;
-    border-radius: 999px;
-    z-index: 30;
-}
-.active_app_background {
-    border-radius: 25px;
-}
+
 #app {
     height: 4.5rem;
     width: 4.5rem;
     border-radius: 999px;
-    z-index: 31;
+    margin-top: 0px;
+    text-align: center;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    transition: height 0.5s, width 0.5s, transform 0.25s;
-} #app:active, .app_background:active, .active_app_background:active{
+    transition: height 0.5s, width 0.5s, transform 0.25s, border-radius 0.25s;
+}
+#app img {
+    height: 2.5rem;
+}
+#app:active {
     transform: scale(0.9);
+    border-radius: 20px;
 }
-.app_background:hover, .active_app_background:hover {
-    background-color: rgba(255, 215, 0, 0.4);
+#app:focus {
+    border-radius: 20px;
 }
-.active{
-    border-radius: 20px !important;
-}
-#active_app {
+.app_display {
     margin: auto;
     border: none;
     border-top: 5px solid;

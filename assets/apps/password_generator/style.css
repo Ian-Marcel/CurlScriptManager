@@ -1,0 +1,56 @@
+/* CSS */
+/* IMPORTS */
+@import url('../../design/css/basic structure.css');
+@import url('../../design/css/pallets.css');
+@import url('../../design/css/fonts.css');
+
+/* YOUR CSS */
+*{
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    scroll-behavior: smooth;
+}
+body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    
+    input {
+        border-radius: 5px;
+        border: 2px solid;
+        margin: 5px 0px;
+        padding: 10px;
+    }
+    input:focus{
+        outline: none;
+    }
+    input[type="submit"] {
+        border: inherit;
+        border-radius: 100px;
+        cursor: pointer;
+        width: 150px;
+        font-size: inherit;
+    }
+    .container {
+        text-align: center;
+        margin-top: 50px;
+        height: 100%;
+    }
+    #password {
+        margin-bottom: 20px;
+        padding: 10px;
+        width: 300px;
+        font-size: 18px;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }

@@ -5,9 +5,6 @@
 @import url('assets/design/css/fonts.css');
 
 /* YOUR CSS */
-* {
-    margin: 0%;
-}
 body, html {
     display: grid;
     place-items: center;
@@ -23,7 +20,7 @@ main {
     flex-wrap: nowrap;
     justify-content: center;
 }
-.closet, .app_display {
+.closet, .app_viewer {
     margin: auto;
     border-radius: 10px;
     max-width: 90vw;
@@ -85,7 +82,7 @@ main {
 .app:focus {
     border-radius: 20px;
 }
-.app_display {
+.app_viewer {
     margin: auto;
     border: none;
     border-top: 5px solid;

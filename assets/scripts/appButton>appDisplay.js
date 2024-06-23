@@ -15,7 +15,7 @@
 
 window.onload = function () {
     const buttons = document.querySelectorAll('.app');
-    const iframe = document.getElementById('appDisplay');
+    const iframe = document.getElementById('appViewer');
 
     buttons.forEach(button => {
         button.addEventListener('click', function () {

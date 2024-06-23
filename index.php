@@ -17,7 +17,7 @@
                 </section>
                 <button id="closet-forward" class="closet_btn Harvest"><b>></b></button>
             </section>
-            <iframe src="/assets/apps/password_generator/" class="app_display" id="appDisplay" title="app_display" name="app_display">
+            <iframe src="/assets/apps/password_generator/" class="app_viewer" id="appViewer" title="App_Viewer" name="App_Viewer">
             </iframe>
         </main>
         <!-- scripts -->

@@ -8,4 +8,4 @@ ToolPot busca aumentar a produtividade e comodidade do usuário através de um e
 
 ### Roadmap
 
-- [ ] UX/UI completa
+- [x] UX/UI completa

@@ -7,24 +7,20 @@
         <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
         <title>Toolpot</title>
     </head>
-    <body class="Cinnamon">
-        <header class="Cinnamon">
-            <nav>
-                <h1>Toolpot</h1>
-                <div class="nav_content">
-                    <a href="web/" class="Cinnamon-alt">
-                                Experimente on-line
-                        </a>
-                        <a href="#" class="Cinnamon">
-                                Baixe a extensão
-                        </a>
-                </div>
-            </nav>
+    <body class="Mint">
+        <header class="Harvest">
+            <h3>🚧 PROJETO AINDA EM DESENVOLVIMENTO 🚧</h3>
         </header>
-
-
+        <main>
+            <h1>Toolpot</h1>
+            <h3>Alcance tudo sem sair do lugar</h3>
+            <section>
+                <a href="web/" class="Mint-alt">Experimente a versão online</a>
+                <a href="#" class="Mint">Baixe a extensão</a>
+            </section>
+            <img src="web/assets/design/imgs/show.png" alt="show">
+        </main>
         <!-- scripts -->
         <script src="script.js"></script>
-
     </body>
 </html>

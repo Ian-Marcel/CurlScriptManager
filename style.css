@@ -7,8 +7,10 @@
 header {
     height: 50px;
     display: flex;
+    position: static;
+    margin-bottom: 50px;
     align-items: center;
-    place-content: center   ;
+    place-content: center;
     text-align: center;
     border-bottom: 1px solid;
 }header h3 {
@@ -38,10 +40,11 @@ main {
 .obtain {
     display: block;
     place-content: space-evenly;
+    margin-bottom: 25px;
 }.obtain a {
     padding: 5px 10px 5px 10px;
     border-radius: 999px;
-}.obtain a.Blood  {
+}.obtain a.Navy  {
     color: grey;
     cursor: not-allowed;
     text-decoration: underline;

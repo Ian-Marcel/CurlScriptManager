@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="" image/x-icon">
+        <link rel="icon" type="image/x-icon" href="assets/design/images/favicon.ico">
         <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
         <title>Toolpot</title>
     </head>
@@ -12,13 +12,16 @@
             <h3>🚧 PROJETO AINDA EM DESENVOLVIMENTO 🚧</h3>
         </header>
         <main>
-            <h1>Toolpot</h1>
+                <section class="tittle">
+                    <img src="assets/design/images/logo.jpg" alt="Logo">
+                    <h1>Toolpot</h1>
+                </section>
             <h3>Alcance tudo sem sair do lugar</h3>
-            <section>
-                <a href="web/" class="Mint-alt">Experimente a versão online</a>
-                <a href="#" class="Mint">Baixe a extensão</a>
-            </section>
-            <img src="web/assets/design/imgs/show.png" alt="show">
+                <section class="obtain">
+                    <a href="web/" class="Mint-alt">Experimente a versão online</a>
+                    <a href="#" class="Mint">Baixe a extensão</a>
+                </section>
+            <img class="show" src="assets/design/images/show.png" alt="show">
         </main>
         <!-- scripts -->
         <script src="script.js"></script>

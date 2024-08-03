@@ -7,19 +7,19 @@
         <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
         <title>Toolpot</title>
     </head>
-    <body class="Mint">
+    <body class="Navy">
         <header class="Harvest">
             <h3>🚧 PROJETO AINDA EM DESENVOLVIMENTO 🚧</h3>
         </header>
         <main>
                 <section class="tittle">
-                    <img src="assets/design/images/logo.jpg" alt="Logo">
+                    <img src="assets/design/images/logo.png" alt="Logo">
                     <h1>Toolpot</h1>
                 </section>
             <h3>Alcance tudo sem sair do lugar</h3>
                 <section class="obtain">
-                    <a href="web/" class="Mint-alt">Experimente a versão online</a>
-                    <a href="#" class="Mint">Baixe a extensão</a>
+                    <a href="web/" class="Navy-alt">Experimente a versão online</a>
+                    <a href="#" class="Navy">Baixe a extensão</a>
                 </section>
             <img class="show" src="assets/design/images/show.png" alt="show">
         </main>

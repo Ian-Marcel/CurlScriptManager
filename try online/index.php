@@ -67,13 +67,13 @@
                         </li>
                         <li>
                             <p>
-                                Dentro de <i><u>Protocol</u></i> nas configurações selecione para que a extensão apenas aceite conexões via HTTPS,
+                                Dentro de <i><u>Protocol</u></i> nas configurações selecione para que a extensão apenas aceite
                             </p>
                             <p>
-                                isso aumentara sua segurança, depois extensão adicione <code class="Navy-alt">https://toolpot.club/web/</code>
+                                conexões via HTTPS, isso aumentará sua segurança, depois extensão adicione
                             </p>
                             <p>
-                                dentro do espaço como mostrado abaixo <i><u>Initial Location</u></i>.
+                                <code class="Navy-alt">https://toolpot.club/web/</code> dentro do espaço como mostrado abaixo <i><u>Initial Location</u></i>.
                             </p>
                             <img src="/assets/design/images/firefox_step_3.gif" alt="firefox_step_3">
                         </li>

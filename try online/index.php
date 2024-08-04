@@ -67,7 +67,7 @@
                         </li>
                         <li>
                             <p>
-                                Dentro das configurações selecione para que a extensão apenas aceite conexões via HTTPS,
+                                Dentro de <i><u>Protocol</u></i> nas configurações selecione para que a extensão apenas aceite conexões via HTTPS,
                             </p>
                             <p>
                                 isso aumentara sua segurança, depois extensão adicione <code class="Navy-alt">https://toolpot.club/web/</code>

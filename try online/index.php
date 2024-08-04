@@ -30,6 +30,7 @@
                             <p>
                                 Após instalada acesse o menu da extensão localizado na barra de extensões selecione as <i><u>Gerenciar extensão</u></i>.
                             </p>
+                            <img src="/assets/design/images/chrome_step_2.png" alt="chrome_step_2">
                         </li>
                         <li>
                             <p>
@@ -70,7 +71,7 @@
                                 <br>
                                 do espaço como mostrado abaixo.
                             </p>
-                            <img src="/assets/design/images/" alt="firefox_step_3">
+                            <img src="/assets/design/images/firefox_step_3.gif" alt="firefox_step_3">
                         </li>
                     </ol>
                 </section>

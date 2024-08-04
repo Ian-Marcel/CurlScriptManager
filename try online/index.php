@@ -61,15 +61,19 @@
                         </li>
                         <li>
                             <p>
-                                Após instalada acesse as <i><u>opções da extensão</u></i> localizado no menu de extensões.
+                                Após instalada acesse as <i><u>opções da extensão</u></i> localizado no menu da extensão.
                             </p>
                             <img src="/assets/design/images/firefox_step_2.png" alt="firefox_step_2">
                         </li>
                         <li>
                             <p>
-                                Dentro das configurações de extensão adicione <code class="Navy-alt">https://toolpot.club/web/</code> dentro
-                                <br>
-                                do espaço como mostrado abaixo.
+                                Dentro das configurações selecione para que a extensão apenas aceite conexões via HTTPS,
+                            </p>
+                            <p>
+                                isso aumentara sua segurança, depois extensão adicione <code class="Navy-alt">https://toolpot.club/web/</code>
+                            </p>
+                            <p>
+                                dentro do espaço como mostrado abaixo <i><u>Initial Location</u></i>.
                             </p>
                             <img src="/assets/design/images/firefox_step_3.gif" alt="firefox_step_3">
                         </li>

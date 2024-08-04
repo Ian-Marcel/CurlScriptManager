@@ -18,7 +18,7 @@
                 </section>
             <h3>Alcance tudo sem sair do lugar</h3>
                 <section class="obtain">
-                    <a href="web/" class="Navy-alt">Experimente a versão online</a>
+                    <a href="try online/" class="Navy-alt">Experimente a versão online</a>
                     <a href="#" class="Navy">Baixe a extensão</a>
                 </section>
             <img class="show" src="assets/design/images/show.png" alt="show">

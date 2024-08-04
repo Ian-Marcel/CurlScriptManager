@@ -1,0 +1,45 @@
+/* CSS */
+/* IMPORTS */
+@import url('../web/assets/design/css/basic structure.css');
+@import url('../web/assets/design/css/pallets.css');
+
+/* YOUR CSS */
+body {
+    display: grid;
+    place-items: center;
+}
+
+main {
+    margin: auto;
+    padding: 20px;
+    height: 750px;
+    width: 1000px;
+    max-width: 1000px;
+    border-radius: 25px;
+    text-align: justify;
+}
+
+.chromium_based {
+    margin: auto;
+    display: block;
+    border-radius: 12.5px;
+}.chromium_based section {
+    margin: auto;
+    text-align: justify;
+}.chromium_based section img {
+    width: 600px;
+    border-radius: 10px;
+    margin: 10px;
+}.chromium_based section code {
+    padding-inline: 2px;
+    border-radius: 2.5px;
+}
+
+.firefox_based{
+    margin: auto;
+    display: block;
+    border-radius: 12.5px;
+}.firefox_based section {
+    margin: auto;
+    text-align: justify;
+}

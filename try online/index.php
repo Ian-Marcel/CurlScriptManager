@@ -30,13 +30,12 @@
                             <p>
                                 Após instalada acesse o menu da extensão localizado na barra de extensões selecione as <i><u>Gerenciar extensão</u></i>.
                             </p>
-                            <img src="/assets/design/images/step_2.png" alt="step_2">
                         </li>
                         <li>
                             <p>
                                 Depois desça e clique na opção de <i><u>Opções da extensão</u></i>.
                             </p>
-                            <img src="/assets/design/images/step_3.png" alt="step_3">
+                            <img src="/assets/design/images/chrome_step_3.png" alt="chrome_step_3">
                         </li>
                         <li>
                             <p>
@@ -44,18 +43,35 @@
                                 <br>
                                 do espaço como mostrado abaixo.
                             </p>
-                            <img src="/assets/design/images/step_4.gif" alt="step_4">
+                            <img src="/assets/design/images/chrome_step_4.gif" alt="chrome_step_4">
                         </li>
                     </ol>
                 </section>
             </div>
+            <div class="HR"></div>
             <div class="firefox_based Navy">
                 <h3>Para navegadores baseados no Firefox</h3>
                 <section>
                     <ol>
-                        <li>Coffee</li>
-                        <li>Tea</li>
-                        <li>Milk</li>
+                        <li>
+                            <p>
+                                Instale a extensão <a href="https://addons.mozilla.org/pt-PT/firefox/addon/open_in_sidebar/" target="_blank" rel="noopener noreferrer"><u><b>Open in Sidebar</b></u></a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Após instalada acesse as <i><u>opções da extensão</u></i> localizado no menu de extensões.
+                            </p>
+                            <img src="/assets/design/images/firefox_step_2.png" alt="firefox_step_2">
+                        </li>
+                        <li>
+                            <p>
+                                Dentro das configurações de extensão adicione <code class="Navy-alt">https://toolpot.club/web/</code> dentro
+                                <br>
+                                do espaço como mostrado abaixo.
+                            </p>
+                            <img src="/assets/design/images/" alt="firefox_step_3">
+                        </li>
                     </ol>
                 </section>
             </div>

@@ -23,6 +23,10 @@
                 </section>
             <img class="show" src="assets/design/images/show.png" alt="show">
         </main>
+            
+        <footer>
+            <a href="https://github.com/Ian-Marcel/ToolPot">Visite nosso GitHub!</a>
+        </footer>
         <!-- scripts -->
         <script src="script.js"></script>
     </body>

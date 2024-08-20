@@ -1,112 +1,53 @@
 /* CSS */
 /* IMPORTS */
-@import url('assets/design/css/basic structure.css');
-@import url('assets/design/css/pallets.css');
-@import url('assets/design/css/fonts.css');
+@import url('/web/assets/design/css/basic structure.css');
+@import url('/web/assets/design/css/pallets.css');
 
 /* YOUR CSS */
-* {
-    margin: 0%;
+header {
+    height: 50px;
+    display: flex;
+    position: static;
+    margin-bottom: 50px;
+    align-items: center;
+    place-content: center;
+    text-align: center;
+    border-bottom: 1px solid;
+}header h3 {
+    font-size: 1.25rem;    
 }
-body, html {
-    display: grid;
-    place-items: center;
-    background-color: #000;
-    margin: 0%;
-    overflow-y: hidden;
-}
+
 main {
-    width: 100vw;
-    min-height: 100vh;
+    margin: auto;
+    width: 1000px;
+    max-width: 1000px;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
+    align-items: center;
+    place-content: center;
+    text-align: center;
 }
-.closet, .app_display {
-    margin: auto;
-    border-radius: 10px;
-    max-width: 90vw;
-}
-.closet {
-    min-height: 30vh;
-    max-height: 40vh;
+
+.tittle{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     align-items: center;
-    justify-content: space-evenly;
+}.tittle img {
+    margin-right: 10px;
+    width: 50px;
 }
-.closet_btn {
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 90px;
-    max-width: 30px;
-    border: 2px solid;
+
+.obtain {
+    display: block;
+    place-content: space-evenly;
+    margin-bottom: 25px;
+}.obtain a {
+    padding: 5px 10px 5px 10px;
     border-radius: 999px;
-    transition: transform 0.25s, background-color 0.25s;
+}.obtain a.Navy  {
+    color: grey;
+    cursor: not-allowed;
+    text-decoration: underline;
+}.show {
+    width: 1000px;
 }
-
-.closet_btn:hover {
-    transform: scale(1.05);
-    background-color: rgba(255, 215, 0, 0.1);
-}.closet_btn:active{
-    transform: scale(0.95);
-}
-.apps {
-    margin: auto 10px;
-    display: grid;
-	grid-template-columns: repeat(3, 1fr);
-    place-items: center;
-    gap: 10px;
-}
-
-.app {
-    height: 4.5rem;
-    width: 4.5rem;
-    border-radius: 999px;
-    margin-top: 0px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: height 0.5s, width 0.5s, transform 0.25s, border-radius 0.25s;
-}
-.app img {
-    height: 2.5rem;
-}
-.app:active {
-    transform: scale(0.9);
-    border-radius: 20px;
-}
-.app:focus {
-    border-radius: 20px;
-}
-.app_display {
-    margin: auto;
-    border: none;
-    border-top: 5px solid;
-    width: 100%;
-    max-width: 800px;
-    height: 70vh;
-}
-.hr{
-    margin: 5px auto;
-    color: inherit;
-    max-width: 25%;
-    border-radius: 10px;
-    border: 1px solid;
-}
-@media (max-width: 385px) {
-    .closet_btn {
-    transition: transform 0.15s, background-color 0.15s;
-    }
-    .app {
-        height: 60px;
-        width: 60px;
-    }
-}
-

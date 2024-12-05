@@ -1,0 +1,20 @@
+/* BASIC STRUCTURE */
+* {
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100vh;
+	line-height: 1.5;
+}
+
+p, span{
+	font-weight: 500;
+}
+
+a {
+	text-decoration: none;
+	color: #007AFF;
+}

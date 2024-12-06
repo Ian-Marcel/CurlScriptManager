@@ -1,0 +1,41 @@
+/* IMPORTS */
+@import url('basic structure.css');
+@import url('assets/fonts/Inter/inter.css');
+@import url('assets/fonts/Karma/css/karma.css');
+/* CSS */
+:root {
+    font-family: "InterVariable", "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+@supports not (font-variation-settings: normal) {
+    :root {
+        font-family: "Inter", sans-serif;
+    }
+}
+body {
+    display: flex;
+    place-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: antiquewhite;
+}
+div {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.grave_ston {
+    height: 175px;
+}
+.memorial {
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    background-color: #111111;
+    font-family: Karma-Variable, serif;
+    font-style: italic;
+}
+.know_more {
+    margin: auto;
+}

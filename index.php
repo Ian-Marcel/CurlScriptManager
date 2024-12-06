@@ -1,33 +1,24 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/x-icon" href="assets/design/images/favicon.ico">
-        <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
-        <title>Toolpot</title>
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚰️</text></svg>">
+        <link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
+        <title>Farewell</title>
     </head>
-    <body class="Navy">
-        <header class="Harvest">
-            <h3>🚧 PROJETO AINDA EM DESENVOLVIMENTO 🚧</h3>
-        </header>
-        <main>
-                <section class="tittle">
-                    <img src="assets/design/images/logo.png" alt="Logo">
-                    <h1>Toolpot</h1>
-                </section>
-            <h3>Alcance tudo sem sair do lugar</h3>
-                <section class="obtain">
-                    <a href="try-online/" class="Navy-alt">Experimente a versão online</a>
-                    <a href="#" class="Navy">Baixe a extensão</a>
-                </section>
-            <img class="show" src="assets/design/images/show.png" alt="show">
-        </main>
-            
-        <footer>
-            <a href="https://github.com/Ian-Marcel/ToolPot">Visite nosso GitHub!</a>
-        </footer>
-        <!-- scripts -->
-        <script src="script.js"></script>
+    <body>
+        <div>
+            <img class="grave_ston" src="css/assets/images/ston.png" alt="Grave-ston">
+            <p class="memorial">
+            "Thise werk is ded, ful longe tyme forsaken<br>
+            thise page lith as a grave-ston<br>
+            wherof to fewe it stirreth mynde medled<br>
+            of thinge that ne mighte nevere han continuyng."
+            </p>
+        </div>
+        <div class="know_more">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Know more</a>
+        </div>
     </body>
 </html>

@@ -17,7 +17,7 @@
             of thinge that ne mighte nevere han continuyng."
             </p>
         </div>
-        <div>
+        <div class="know_more">
             <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Know more</a>
         </div>
     </body>

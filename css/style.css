@@ -13,8 +13,9 @@
     }
 }
 body {
-    display: grid;
+    display: flex;
     place-content: center;
+    flex-direction: column;
     background-color: black;
     color: antiquewhite;
 }
@@ -37,5 +38,4 @@ div {
 }
 .know_more {
     margin: auto;
-    margin-top: 50px;
 }

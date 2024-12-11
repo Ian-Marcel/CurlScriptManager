@@ -47,7 +47,7 @@ while true; do
             source uninstall.sh
             break
         elif [[ "$CURL_ESX" = 0 ]]; then
-            echo -e "${BGREEN}The wizard was stopped, Bye Bye... ${NC}"
+            echo -e "\n${BGREEN}The wizard was stopped, Bye Bye... \n ${NC}"
             cd .. && rm -rf Easy-Sourced-NGINX
             exit 0
         else

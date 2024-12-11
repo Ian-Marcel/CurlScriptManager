@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+exec </dev/tty
+
 NC='\033[0m' # No Color
 BCYAN='\033[1;36m'
 BGREEN='\033[1;32m'

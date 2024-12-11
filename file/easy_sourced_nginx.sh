@@ -52,5 +52,5 @@ while true; do
         else
             echo -e "${BYELLOW}Please enter between 0 and 3. ${NC}"
         fi
-        cd .. && rm -rf Easy-Sourced-NGINX
 done
+cd .. && rm -rf Easy-Sourced-NGINX

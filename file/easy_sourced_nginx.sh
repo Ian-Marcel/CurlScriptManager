@@ -30,7 +30,7 @@ default location${BCYAN}(aka.:/etc/nginx)${BYELLOW}!!!
 ${NC}"
 
 while true; do
-    read -rp $'Please enter an option using it respective number or stop the wizard by entering 0(zero) \033[1;33m[0,1,2,3]: \033[1;0m' CURL_ESX &&
+    read -rp $'Please enter an option using it respective number or stop the wizard by entering 0(zero) \033[1;33m[0,1,2,3]: \033[1;0m' CURL_ESX
         if [[ "$CURL_ESX" = 1 ]]; then
             source install.sh
             break

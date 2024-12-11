@@ -54,4 +54,11 @@ ${NC}"
             echo -e "${BYELLOW}Please enter between 0 and 3. ${NC}"
         fi
 
+
+if [ -t 0 ]; then
+    echo "Interactive mode detected"
+else
+    echo "Non-interactive mode detected"
+fi
+
 cd .. && rm -rf Easy-Sourced-NGINX

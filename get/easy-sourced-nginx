@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-curl -s https://www.toolpot.club/file/648777.sh -o easy-sourced-nginx.sh && bash easy-sourced-nginx.sh
+curl -s https://www.toolpot.club/file/648777.sh -o easy-sourced-nginx.sh && source easy-sourced-nginx.sh

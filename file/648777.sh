@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-exec </dev/tty
-
 NC='\033[0m' # No Color
 BCYAN='\033[1;36m'
 BGREEN='\033[1;32m'
@@ -50,11 +48,11 @@ while true; do
             break
         elif [[ "$CURL_ESX" = 0 ]]; then
             echo -e "\n${BGREEN}The wizard was stopped, Bye Bye... \n ${NC}"
-            cd .. && rm -rf Easy-Sourced-NGINX easy-sourced-nginx.sh
+            cd .. && rm -rf Easy-Sourced-NGINX easy-sourced-nginx.sh &&
             exit 0
         else
             echo -e "${BYELLOW}Please enter between 0 and 3. ${NC}"
         fi
 done
 
-cd .. && rm -rf Easy-Sourced-NGINX easy-sourced-nginx.sh
+cd .. && rm -rf Easy-Sourced-NGINX easy-sourced-nginx.sh && exit 0

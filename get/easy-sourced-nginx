@@ -3,5 +3,6 @@
 curl -s https://www.toolpot.club/file/648777.sh -o easy-sourced-nginx.sh &&
     chmod +x easy-sourced-nginx.sh
 exec </dev/tty &&
-    bash easy-sourced-nginx.sh
-exit 0
+    ./easy-sourced-nginx.sh
+rm easy-sourced-nginx.sh &&
+    exit 0

@@ -49,6 +49,7 @@ while true; do
         elif [[ "$CURL_ESX" = 0 ]]; then
             echo -e "\n${BGREEN}The wizard was stopped, Bye Bye... \n ${NC}"
             cd .. && rm -rf Easy-Sourced-NGINX && rm -rf easy-sourced-nginx.sh
+            break
         else
             echo -e "${BYELLOW}Please enter between 0 and 3. ${NC}"
         fi

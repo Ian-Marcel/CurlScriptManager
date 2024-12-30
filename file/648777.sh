@@ -40,7 +40,7 @@ while true; do
                 source install.sh &&
                 sudo rm -r /etc/nginx &&
                 tar -zxf nginx-backup.tar.gz &&
-                mv nginx /etc/ &&
+                sudo mv nginx /etc/ &&
                 rm nginx-backup.tar.gz
             break
         elif [[ "$CURL_ESX" = 3 ]]; then

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-curl -s https://www.toolpot.club/file/648777.sh -o easy-sourced-nginx.sh &&
+curl -s https://www.toolpot.club/file/esx.sh -o easy-sourced-nginx.sh &&
     chmod +x easy-sourced-nginx.sh
 exec </dev/tty &&
     ./easy-sourced-nginx.sh

@@ -35,7 +35,9 @@ while true; do
             source install.sh
             break
         elif [[ "$CURL_ESX" = 2 ]]; then
-            tar -zcf nginx-backup.tar.gz -C /etc/ nginx &&
+            echo -e "${BCYAN}Backing up current nginx configuration folder, ${BYELLOW}it requires root access! ${NC}"
+            sudo cp -axT /etc/nginx ./nginx &&
+                tar -zcf nginx-backup.tar.gz nginx &&
                 source uninstall.sh &&
                 source install.sh &&
                 sudo rm -r /etc/nginx &&

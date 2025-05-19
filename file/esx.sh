@@ -1,10 +1,14 @@
 #!/usr/bin/env bash
 
+set -euo pipefail # Sair em caso de erro e falha em variáveis ​​não definidas
+
 NC='\033[0m' # No Color
 BCYAN='\033[1;36m'
 BGREEN='\033[1;32m'
 BYELLOW='\033[1;33m'
 BRED='\033[1;31m'
+
+trap 'echo -e "❌ ${BYELLOW}Error occurred.${BCYAN} Exiting.${NC}"' ERR
 
 echo -e "
 Hi! Quick thanks for using my project, it means a lot, any suggestions for improvements with 

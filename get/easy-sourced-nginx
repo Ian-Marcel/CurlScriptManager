@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+exec </dev/tty
+
 set -euo pipefail # Sair em caso de erro e falha em variáveis ​​não definidas
 
 NC='\033[0m' # No Color
@@ -10,9 +12,8 @@ BRED='\033[1;31m'
 
 trap 'echo -e "❌ ${BYELLOW}Error occurred.${BCYAN} Exiting.${NC}"' ERR
 
-curl -s https://www.toolpot.club/file/esx.sh -o easy-sourced-nginx.sh &&
-    chmod +x easy-sourced-nginx.sh
-exec </dev/tty &&
-    ./easy-sourced-nginx.sh &&
-    rm easy-sourced-nginx.sh &&
-    exit 0
+curl -s https://www.toolpot.club/file/esx.sh -o easy-sourced-nginx.sh
+chmod +x easy-sourced-nginx.sh
+./easy-sourced-nginx.sh
+rm easy-sourced-nginx.sh
+exit 0

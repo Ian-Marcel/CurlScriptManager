@@ -8,9 +8,9 @@ BYELLOW='\033[1;33m'
 
 trap 'echo -e "❌ ${BYELLOW}Error occurred.${BCYAN} Exiting.${NC}"' ERR
 
+curl -s https://serving.duckdns.org/file/esx.sh -o easy-sourced-nginx.sh &&
+    chmod +x easy-sourced-nginx.sh
 exec </dev/tty &&
-    curl -s https://www.toolpot.club/file/esx.sh -o easy-sourced-nginx.sh &&
-    chmod +x easy-sourced-nginx.sh &&
     ./easy-sourced-nginx.sh &&
     rm easy-sourced-nginx.sh &&
     exit 0

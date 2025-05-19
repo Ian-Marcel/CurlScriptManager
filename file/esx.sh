@@ -8,7 +8,7 @@ BGREEN='\033[1;32m'
 BYELLOW='\033[1;33m'
 BRED='\033[1;31m'
 
-trap 'echo -e "❌ ${BYELLOW}Error occurred.${BCYAN} Exiting.${NC}"; exit' ERR
+trap 'echo -e "❌ ${BYELLOW}Error occurred.${BCYAN} Exiting.${NC}"; cd .. && rm -rf Easy-Sourced-NGINX && exit' ERR
 
 echo -e "
 Hi! Quick thanks for using my project, it means a lot, any suggestions for improvements with 

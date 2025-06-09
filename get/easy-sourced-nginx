@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -euo pipefail # Sair em caso de erro e falha em variáveis ​​não definidas
+set -euo pipefail # Sair em caso de erro e falha em variáveis não definidas
 
 NC='\033[0m' # No Color
 BCYAN='\033[1;36m'
@@ -8,7 +8,7 @@ BYELLOW='\033[1;33m'
 
 trap 'echo -e "❌ ${BYELLOW}Error occurred.${BCYAN} Exiting.${NC}"; rm easy-sourced-nginx.sh' ERR
 
-curl -s https://serving.duckdns.org/file/esx.sh -o easy-sourced-nginx.sh &&
+curl -s https://ianmarcel.dev/file/easy-sourced-nginx.sh -o easy-sourced-nginx.sh &&
     chmod +x easy-sourced-nginx.sh
 exec </dev/tty &&
     ./easy-sourced-nginx.sh &&

@@ -40,14 +40,7 @@ while true; do
             break
         elif [[ "$CURL_ESX" = 2 ]]; then
             echo -e "${BCYAN}Backing up current nginx configuration folder, ${BYELLOW}it requires root access! ${NC}"
-            sudo tar -zcf nginx-backup.tar.gz -C /etc/ nginx &&
-                sudo chown $USER:$USER nginx-backup.tar.gz &&
-                source uninstall.sh &&
-                source install.sh &&
-                sudo rm -r /etc/nginx &&
-                tar -zxf nginx-backup.tar.gz &&
-                sudo mv nginx /etc/ &&
-                rm nginx-backup.tar.gz
+			source reinstall.sh
             break
         elif [[ "$CURL_ESX" = 3 ]]; then
             source uninstall.sh
